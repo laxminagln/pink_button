@@ -22,62 +22,29 @@ class MyApp extends StatelessWidget {
                   launch("tel://9809861924");
                 },
                 child: Card(
-                margin: EdgeInsets.fromLTRB(30.0, 30.0, 30.0, 30.0),
-                color: Colors.pink,
-                child: Padding(
-                  padding: EdgeInsets.all(10.0),
-                  child: Row(
-                    children: <Widget>[
-                      Icon(
-                        Icons.phone,
-                        color: Colors.white,
-                        size: 15.0,
-                      ),
-                      SizedBox(
-                        width: 30.0,
-                      ),
-                      Text(
-                        'EMERGENCY',
-                        style: TextStyle(
-                          color: Colors.white,
-                          fontSize: 15.0,
-                        ),
-                      ),
-                    ],
-                  ),
-                ),
-              ),
-              ),
-              SizedBox(
-                height: 20.0,
-                width: 200.0,
-                child: Divider(
+                  margin: EdgeInsets.fromLTRB(30.0, 30.0, 30.0, 30.0),
                   color: Colors.pink,
-                ),
-              ),
-              Card(
-                margin: EdgeInsets.fromLTRB(30.0, 30.0, 30.0, 20.0),
-                color: Colors.pink,
-                child: Padding(
-                  padding: EdgeInsets.all(10.0),
-                  child: Row(
-                    children: <Widget>[
-                      Icon(
-                        Icons.message,
-                        color: Colors.white,
-                        size: 15.0,
-                      ),
-                      SizedBox(
-                        width: 30.0,
-                      ),
-                      Text(
-                        'NOTIFY',
-                        style: TextStyle(
+                  child: Padding(
+                    padding: EdgeInsets.all(10.0),
+                    child: Row(
+                      children: <Widget>[
+                        Icon(
+                          Icons.phone,
                           color: Colors.white,
-                          fontSize: 15.0,
+                          size: 15.0,
                         ),
-                      ),
-                    ],
+                        SizedBox(
+                          width: 30.0,
+                        ),
+                        Text(
+                          'EMERGENCY',
+                          style: TextStyle(
+                            color: Colors.white,
+                            fontSize: 15.0,
+                          ),
+                        ),
+                      ],
+                    ),
                   ),
                 ),
               ),
@@ -88,29 +55,72 @@ class MyApp extends StatelessWidget {
                   color: Colors.pink,
                 ),
               ),
-              Card(
-                margin: EdgeInsets.fromLTRB(30.0, 30.0, 30.0, 20.0),
-                color: Colors.pink,
-                child: Padding(
-                  padding: EdgeInsets.all(10.0),
-                  child: Row(
-                    children: <Widget>[
-                      Icon(
-                        Icons.hourglass_full,
-                        color: Colors.white,
-                        size: 15.0,
-                      ),
-                      SizedBox(
-                        width: 30.0,
-                      ),
-                      Text(
-                        'HELMET',
-                        style: TextStyle(
+              FlatButton(
+                onPressed: (){
+
+                },
+                child: Card(
+                  margin: EdgeInsets.fromLTRB(30.0, 30.0, 30.0, 20.0),
+                  color: Colors.pink,
+                  child: Padding(
+                    padding: EdgeInsets.all(10.0),
+                    child: Row(
+                      children: <Widget>[
+                        Icon(
+                          Icons.message,
                           color: Colors.white,
-                          fontSize: 15.0,
+                          size: 15.0,
                         ),
-                      ),
-                    ],
+                        SizedBox(
+                          width: 30.0,
+                        ),
+                        Text(
+                          'NOTIFY',
+                          style: TextStyle(
+                            color: Colors.white,
+                            fontSize: 15.0,
+                          ),
+                        ),
+                      ],
+                    ),
+                  ),
+                ),
+              ),
+              SizedBox(
+                height: 20.0,
+                width: 200.0,
+                child: Divider(
+                  color: Colors.pink,
+                ),
+              ),
+              FlatButton(
+                onPressed: (){
+
+                },
+                child: Card(
+                  margin: EdgeInsets.fromLTRB(30.0, 30.0, 30.0, 20.0),
+                  color: Colors.pink,
+                  child: Padding(
+                    padding: EdgeInsets.all(10.0),
+                    child: Row(
+                      children: <Widget>[
+                        Icon(
+                          Icons.hourglass_full,
+                          color: Colors.white,
+                          size: 15.0,
+                        ),
+                        SizedBox(
+                          width: 30.0,
+                        ),
+                        Text(
+                          'HELMET',
+                          style: TextStyle(
+                            color: Colors.white,
+                            fontSize: 15.0,
+                          ),
+                        ),
+                      ],
+                    ),
                   ),
                 ),
               ),
