@@ -11,8 +11,9 @@ class MyApp extends StatelessWidget {
         child: Scaffold(
           backgroundColor: Colors.blueGrey[900],
           appBar: AppBar(
-            title: Text("Pink Button"),
-            backgroundColor: Colors.pink,
+            //title: Text("Pink Button"),
+            //backgroundColor: Colors.pink,
+            title: Image.asset('images/cover.png',),
           ),
           body: Column(
             mainAxisAlignment: MainAxisAlignment.center,
